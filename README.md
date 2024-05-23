@@ -1,6 +1,6 @@
 # JuniorCloudDevOps
 
-Hello, this README.md file provides a description of the actual task provided to you.
+Hello, this README.md file provides a description of the actual task provided to me.
 
 ### Required Resources:
 
