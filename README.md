@@ -34,8 +34,8 @@ Hello, this README.md file provides a description of the actual task provided to
 ### Files in the Repository
 
 - `NewWebApp-Azure.ps1`: PowerShell script to create a new web app, this script is adjusted for this particular task, and we're having AppServicePlan created.
-- `exportedTemplate.json`: The exported ARM template of the resource group.
-
+- `template.json`: The exported ARM template of the resource group.
+- `parameters.json`: The exported ARM template parameters.json
 ### Additional Notes
 
 - This setup ensures resource sharing to minimize costs.
