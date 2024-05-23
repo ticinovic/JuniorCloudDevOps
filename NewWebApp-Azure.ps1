@@ -1,14 +1,20 @@
-﻿Connect-AzAccount
+# Log in to Azure Account
+Connect-AzAccount
 
-$RG = "JuniorCloudDevOps"
-$ASP = "AppServicePlan"
-$newWebApp = "myWebApp5"
-$location = "West Europe"
+# Prompt
+$subscriptionName = Read-Host "Enter the subscription name"
+$resourceGroupName = Read-Host "Enter the resource group name"
+$appServicePlanName = Read-Host "Enter the app service plan name"
+$newWebAppName = Read-Host "Enter the new web app name"
+$location = Read-Host "Enter the location (e.g., West Europe)"
+
+# Set the subscription
+Set-AzContext -Subscription $subscriptionName
 
 # Create the Web App
-New-AzWebApp -ResourceGroupName $RG `
-             -Name $newWebApp `
+New-AzWebApp -ResourceGroupName $resourceGroupName `
+             -Name $newWebAppName `
              -Location $location `
-             -AppServicePlan $ASP
+             -AppServicePlan $appServicePlanName
 
 Write-Output "Web App $newWebAppName created successfully."
