@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": null
+        },
+        "sites_syskitwebapp1_name": {
+            "value": null
+        },
+        "sites_syskitwebapp2_name": {
+            "value": null
+        },
+        "sites_syskitwebapp3_name": {
+            "value": null
+        },
+        "sites_syskitwebapp5_name": {
+            "value": null
+        },
+        "servers_mysqlserver01_name": {
+            "value": null
+        },
+        "serverfarms_AppServicePlan_name": {
+            "value": null
+        },
+        "components_syskitwebapp1_name": {
+            "value": null
+        },
+        "components_syskitwebapp2_name": {
+            "value": null
+        },
+        "components_syskitwebapp3_name": {
+            "value": null
+        },
+        "metricAlerts_AppCPUUsage_name": {
+            "value": null
+        },
+        "activitylogalerts_SQL_Check_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_1a74d017_ac02_4862_b56d_9715316109a4_WEU_externalid": {
+            "value": null
+        }
+    }
+}
